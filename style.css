@@ -1,0 +1,27 @@
+/* font styling */
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20;
+    font-variant: small-caps;
+    font-style: oblique;
+}
+
+h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+h6{
+    /* css shorthand */
+    /* urutan : font-style font-variant font-weight font-size line-height font-family */
+    /* untuk shorthand property yang wajib adalah font-size line-height dan font-family */
+    font: italic normal bold 16px/18px arial, verdana, sans-serif;
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 10;
+    font-style: oblique;
+    line-height: 40px;
+}
