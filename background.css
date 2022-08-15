@@ -1,0 +1,10 @@
+body{
+    background-color: aquamarine;
+    /* bg-image menampilkan gambar dan mengulan secara otomatis dari sumbu x dan y */
+    background-image: url(images/Logo-TKJ.jpg);
+    /* bg-repeat menentukan sumbu mana yang ingin diulang */
+    background-repeat: no-repeat;
+    background-position: top right;
+    /* css shorthand */
+    /* background : color url() position repeat */
+}

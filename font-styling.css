@@ -1,7 +1,9 @@
 /* font styling */
 h1{
+    /* font-family mengandung nama font dan generic family, sans-serif huruf tanpa kaki sedangkan serif huruf dengan kaki */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20;
+    /* font-variant mengubah huruf kapital menjadi kecil walau tetap besar */
     font-variant: small-caps;
     font-style: oblique;
 }
