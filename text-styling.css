@@ -1,0 +1,24 @@
+/* belajar mengenai text-styling */
+h1{
+    font-size: 50px;
+    color: rgb(48, 68, 160);
+    text-decoration: line-through;
+    text-transform: lowercase;
+}
+
+p{
+    text-align: justify;
+    /* text-indent digunakan untuk jarak dari paragraf pertama */
+    text-indent: 50px;
+    /* letter-spacing jarak antar kata */
+    letter-spacing: 5px;
+    /* word-spacing jarak antar kata */
+    word-spacing: 10px;
+}
+
+a{
+    /* text-decoratioan simplenya untuk underline */
+    text-decoration: none;
+    /* text-transform untuk transformasi/kapitalisasi text */
+    text-transform: capitalize;
+}
