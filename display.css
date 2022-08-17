@@ -1,0 +1,32 @@
+/* default display pada tag html yaitu inline dan block */
+/* tag div memiliki default display block */
+/* tag span memiliki default display inline */
+.header{
+
+}
+
+.navigation li{
+    background-color: indianred;
+    display: inline;
+}
+
+.content{
+    background-color: lightgreen;
+}
+
+/* tag inline dan inline-block tidak menambahkan baris baru ketika menambahkan tag */
+a{
+    background-color: aliceblue;
+    width: 100px;
+    height: 100px;
+    /* inline-block mengubah value lebar dan tinggi */
+    /* display: inline-block; */
+}
+
+.content{
+    background-color: blueviolet;
+}
+
+.content h2, h3{
+    background-color: red;
+}
