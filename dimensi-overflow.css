@@ -5,7 +5,7 @@
     background-color: aquamarine;
 }
 
-.dua{
+.overflow{
     /* satuan persen dalam dimensi relatif terhadap parentnya */
     /* jika satuan persen di child lebih besar dari parentnya maka akan melewati parent */
     width: 30%;
