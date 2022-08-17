@@ -1,0 +1,35 @@
+.dimensi{
+    width: 100%;
+    /* satuan px merupakan nilai absolute */
+    height: 400px;
+    background-color: aquamarine;
+}
+
+.dua{
+    /* satuan persen dalam dimensi relatif terhadap parentnya */
+    /* jika satuan persen di child lebih besar dari parentnya maka akan melewati parent */
+    width: 30%;
+    height: 100px;
+    background-color: red;
+    /* value auto otomatis muncul scroll ketika konten melebihi dari dimensi */
+    overflow: auto;
+    margin-bottom:5px;
+}
+
+.overflow1{
+    width: 200px;
+    height: 200px;
+    /* overflow digunakan ketika konten melewati dari batas dimensi */
+    overflow: scroll;
+    display: inline-block;
+    background-color: rgb(5, 245, 125);
+}
+
+.overflow2{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    background-color: chartreuse;
+    /* value hidden menyembunyikan konten yang melewati dimensi */
+    overflow: hidden;
+}
