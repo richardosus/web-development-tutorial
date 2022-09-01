@@ -1,0 +1,22 @@
+/* padding tidak bisa diberi nilai negatif dan auto */
+/* padding akan mengubah ukuran box/content */
+/* jika memberikan padding dan border pada box, maka ukuran box harus dikalkulasi ulang */
+.paddingsatu{
+    width: 600px;
+    margin: 20px auto;
+    background-color: rebeccapurple;
+    padding: 10px;
+    /* border shorthand : width, style, color; */
+    border: 5px double black;
+    box-sizing: border-box;
+}
+
+.paddingdua{
+    width: 600px;
+    margin: auto;
+    background-color: lightgreen;
+    padding: 30px;
+    /* property box-sizing memungkinkan tidak perlu mengkalkulasi ukuran box ketika ditambahkan padding dan border */
+    box-sizing: border-box;
+    border: 10px dashed orange;    
+}
