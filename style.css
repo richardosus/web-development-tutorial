@@ -55,25 +55,14 @@ table {
     padding: 5px;
 }
 
-img{
-    float: right;
-    margin: 5px;
-}
-
-.satu, .dua, .tiga{
-    width: 100px;
-    height: 100px;
-}
-
-.satu{
+.kotak{
+    width: 80px;
+    height: 80px;
     background-color: salmon;
-}
-
-.dua{
-    background-color: limegreen;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+    font-size: 30px;
+    margin: 2px;
     float: left;
-}
-
-.tiga{
-    background-color: lightskyblue;
 }
