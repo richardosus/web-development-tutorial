@@ -4,14 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Position</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Z-Index</title>
+    <style>
+        /* z-index digunakan untuk mengatur tumpukan dari elemen non-static */
+        body{
+            height: 2000px;
+        }
+        div{
+            width: 200px;
+            height: 200px;
+            position: absolute;
+        }
+        .satu{
+            background-color: salmon;
+            z-index: 2;
+        }
+        .dua{
+            background-color: lightgreen;
+            top: 100px;
+            left: 100px;
+            z-index: 1;
+        }
+        .tiga{
+            background-color: royalblue;
+            top: 200px;
+            left: 200px;
+            z-index: 3;
+        }
+        .kotak{
+            background-color: black;
+            position: fixed;
+            top: 100px;
+            bottom: 100px;
+            left: 100px;
+            right: 100px;
+            opacity: 0.7;
+        }
+        .close{
+            width: 30px;
+            height: 30px;
+            background-color: white;
+            border: 3px solid black;
+            border-radius: 50%;
+            position: absolute;
+            top: -15px;
+            right: -15px;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <div class="satu"></div>
-        <div class="dua"></div>
-        <div class="tiga"></div>
-    </div>
+    <section class="kotak">
+        <section class="close"></section>
+    </section>
+    <div class="satu"></div>
+    <div class="dua"></div>
+    <div class="tiga"></div>
 </body>
 </html>
